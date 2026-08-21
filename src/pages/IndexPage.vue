@@ -37,23 +37,23 @@ function onReset () {
       @reset="onReset"
     >
       <q-input
-        v-model="name"
-        filled
-        label="Your name *"
-        hint="Name and surname"
-      />
+      v-model="name"
+      filled
+      label="Your name (ชื่อ-สกุล) *"
+      hint="Name and surname"
+    />
 
       <q-input
-        v-model="age"
-        filled
-        type="number"
-        label="Your age *"
-      />
+      v-model="age"
+      filled
+      type="number"
+      label="Your age (อายุ) *"
+    />
 
       <q-toggle
-        v-model="accept"
-        label="I accept the license and terms"
-      />
+      v-model="accept"
+      label="I accept the license and terms (我接受许可和条款语言)"
+    />
 
       <div>
         <q-btn
